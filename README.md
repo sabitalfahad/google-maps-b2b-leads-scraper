@@ -45,16 +45,16 @@ scraper.py
 
 ### You’ll be asked for:
 
--City names (comma separated)
+- City names (comma separated)
 
--Category (e.g., restaurants, schools, gyms)
+- Category (e.g., restaurants, schools, gyms)
 
--Number of leads per city
+- Number of leads per city
 
 ### Example:Enter place(s):
--Dhaka, Chittagong
--Enter category: restaurants
--Enter number of leads per city: 30
+- Dhaka, Chittagong
+- Enter category: restaurants
+- Enter number of leads per city: 30
 
 ### This will create an output file like:
 ```
@@ -69,11 +69,11 @@ cleaning.py
 
 ### ✅ This script will:
 
--Extract ZIP codes from the Address column
+- Extract ZIP codes from the Address column
 
--Clean and standardize Website URLs
+- Clean and standardize Website URLs
 
--Reorder columns: Name | Address | Zip Code | Website
+- Reorder columns: Name | Address | Zip Code | Website
 
 Save results as:
 ```
@@ -89,13 +89,13 @@ cleaned_restaurants_output.csv
 ## 🧩 Technologies Used
 Python 3
 
--Selenium → Automate browser navigation
+- Selenium → Automate browser navigation
 
--BeautifulSoup4 → Parse HTML
+- BeautifulSoup4 → Parse HTML
 
--Pandas → Clean and export structured data
+- Pandas → Clean and export structured data
 
--Regex → Extract ZIP codes
+- Regex → Extract ZIP codes
 
 ## 📄 License
 
@@ -109,18 +109,18 @@ Pull requests are welcome!
 
 ### If you find a bug or have feature ideas:
 
--Fork the repo
+- Fork the repo
 
--Create a new branch (feature/my-feature)
+- Create a new branch (feature/my-feature)
 
--Submit a pull request 🚀
+- Submit a pull request 🚀
 
 ## Author
 ### Sabit AL Fahad
 
--🛠️ Freelancer | Web Scraper | Data Automation Expert
+- 🛠️ Freelancer | Web Scraper | Data Automation Expert
 
--📧 sabitalfahad.info@gmail.com
+- 📧 sabitalfahad.info@gmail.com
 
 
 
