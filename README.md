@@ -37,13 +37,13 @@ cd google-maps-b2b-leads-scraper
 # 2. Install dependencies
 pip install -r requirements.txt
 
-##▶️ Usage Guide
-###1️⃣ Run the Scraper
+## ▶️ Usage Guide
+### 1️⃣ Run the Scraper
 ```bash
 scraper.py
 ```
 
-###You’ll be asked for:
+### You’ll be asked for:
 
 -City names (comma separated)
 
@@ -51,23 +51,23 @@ scraper.py
 
 -Number of leads per city
 
-###Example:Enter place(s):
+### Example:Enter place(s):
 -Dhaka, Chittagong
 -Enter category: restaurants
 -Enter number of leads per city: 30
 
-###This will create an output file like:
+### This will create an output file like:
 ```
 restaurants_Dhaka_Chittagong_leads.csv
 ```
 
-###2️⃣ Clean the Scraped Data
+### 2️⃣ Clean the Scraped Data
 Once your CSV is generated, clean it for better formatting:
 ```bash
 cleaning.py
 ```
 
-###✅ This script will:
+### ✅ This script will:
 
 -Extract ZIP codes from the Address column
 
@@ -86,7 +86,7 @@ cleaned_restaurants_output.csv
 | The Coffee Bean | Dhanmondi 27, Dhaka          | 1209     | +880 987654321 | [https://coffeebean.com](https://coffeebean.com) |
 
 
-##🧩 Technologies Used
+## 🧩 Technologies Used
 Python 3
 
 -Selenium → Automate browser navigation
@@ -97,17 +97,17 @@ Python 3
 
 -Regex → Extract ZIP codes
 
-##📄 License
+## 📄 License
 
 MIT License © 2025 [Your Name]
 
 You’re free to use, modify, and share this project with attribution.
 
-##🌟 Contribution
+## 🌟 Contribution
 
 Pull requests are welcome!
 
-###If you find a bug or have feature ideas:
+### If you find a bug or have feature ideas:
 
 -Fork the repo
 
@@ -115,10 +115,11 @@ Pull requests are welcome!
 
 -Submit a pull request 🚀
 
-##Author
-###Sabit AL Fahad
+## Author
+### Sabit AL Fahad
 
 -🛠️ Freelancer | Web Scraper | Data Automation Expert
+
 -📧 sabitalfahad.info@gmail.com
 
 
